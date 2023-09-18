@@ -29,6 +29,7 @@ onValue(commentsInDB, function(snapshot) {
 
 buttonEl.addEventListener("click", function() {
     let textAreaValue = textAreaEl.value
+
     appendCommentToList(textAreaValue)
     clearTextArea()
 
