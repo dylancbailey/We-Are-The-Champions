@@ -16,7 +16,7 @@ const ulEl = document.getElementById("endorsements-ul")
 onValue(commentsInDB, function(snapshot) {
     let comments = Object.entries(snapshot.val())
 
-    clearTextArea()
+    clearList()
 
     for (let i = 0; i < comments.length; i++) {
         let currentComment = comments[i]
@@ -37,6 +37,10 @@ buttonEl.addEventListener("click", function() {
 
 function clearTextArea() {
     textAreaEl.value = ""
+}
+
+function clearList() {
+    ulEl.innerHTML = ""
 }
 
 function appendCommentToList(value) {
