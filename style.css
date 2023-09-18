@@ -5,6 +5,8 @@ body, html {
     user-select: none;
     background: #1B1924;
     color: white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -35,20 +37,33 @@ textarea {
     resize: none;
     border: none;
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 15px auto;
     padding: 10px 20px;
     font-size: 1rem;
 }
 button {
-    width: 100%;
+    display: block;
+    width: 360px;
     background: #28A9F1;
     color: #04131C;
     border: none;
     border-radius: 10px;
+    margin: 0 auto;
     padding: 20px 0;
     font-weight: bold;
     font-size: 1.4rem;
+    font-weight: bold;
 }
 h2 {
     text-align: center;
+    font-size: 1.3rem;
+    margin: 20px;
+}
+ul {
+    width: 320px;
+    list-style: none;
+    padding: 15px 20px;
+    background: red;
+    color: #1B1924;
+    background: white;
 }
