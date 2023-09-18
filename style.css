@@ -43,6 +43,20 @@ textarea {
     padding: 10px 20px;
     font-size: 1rem;
 }
+input {
+    width: 155px;
+    background: #444059;
+    color: #8F8F8F;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+#from-input {
+    margin-right: 6px;
+}
 button {
     display: block;
     width: 360px;
@@ -71,6 +85,6 @@ ul {
 ul li {
     width: 100%;
     background-color: white;
-    margin: 15px 0;
+    margin: 15px auto;
     padding: 15px 20px;
 }
